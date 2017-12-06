@@ -1,0 +1,128 @@
+.navbar-brand img { 
+    height: 100%; 
+}
+
+nav form#search{
+    float: right; 
+    padding: 0.5em; 
+
+}
+
+nav form#search .glyphicon-search{
+    z-index: 99; 
+    position: absolute; 
+    right: 0.7em; 
+    top: 50%; 
+    margin-top: -0.44em;
+}
+
+
+nav form#search .input-group .form-control{
+    border-radius: 0.25em; 
+}
+
+
+#nav-options{
+    margin: 0.5em; 
+}
+
+#nav-options button.thumbnail{
+    margin:0; 
+    padding: 0; 
+
+}
+
+#nav-options img {
+    max-height: 2.3em; 
+    border-radius: 0.3em; 
+}
+#tweet{
+    margin: 0.5em; 
+}
+
+.navbar-default{
+    background-color: #2f92ca; 
+
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: #fff; 
+}
+
+
+.navbar-default .navbar-nav > .active > a {
+    background-color: transparent; 
+    color:#fff; 
+    padding-bottom: 10px; 
+    border-bottom: 5px solid #fff; 
+    
+}
+
+
+.navbar-default .navbar-nav > li > a, 
+.navbar-default .navbar-nav > li > a:hover { 
+    color: #fff; 
+    transition: all 150ms ease-in-out;
+    -webkit-transition: all 150ms ease-in-out;
+    -moz-transition: all 150ms ease-in-out;
+    -ms-transition: all 150ms ease-in-out;
+    -o-transition: all 150ms ease-in-out;
+}
+
+
+.navbar-default .navbar-nav > .active > a {
+    background-color: transparent;
+    color: #FFF;
+    padding-bottom: 0.62em;
+    border-bottom: 0.45em solid #FFF;
+}
+
+
+    .navbar-default .navbar-nav > .active > a:hover,
+    .navbar-default .navbar-nav > li > a:hover {
+    background-color: transparent;
+    color: #F3F3F3;
+    padding-bottom: 0.62em;
+    border-bottom: 0.45em solid #F3F3F3;
+    }
+
+
+    .navbar-nav .badge {
+        color: #2f92ca; 
+        background-color: #fff; 
+        font-size: 0.7em; 
+        padding: 0.27rem 0.55rem 0.2rem 0.4rem; 
+        position : absolute; 
+        left: 0.37rem; 
+        top: 0.7rem; 
+        z-index: 99; 
+        border: 0.2rem solid #2f82ca; 
+    }
+
+
+    .navbar-header .navbar-toggle, 
+    .navbar-default .navbar-toggle:focus{
+        background-color: #57A5D2; 
+    }
+
+    .navbar-default .navbar-toggle:hover{
+        background-color: #3986B3; 
+    }
+    
+    .navbar-default .navbar-toggle .icon-bar {
+        background-color: #fff; 
+    }
+
+
+
+    @media(max-width: 34em){
+        .navbar-default .navbar-nav > .active > a {
+            border-bottom: none; 
+            border-left: 0.45em solid #fff; 
+            padding-left: 0.5em; 
+        }
+    }
+/* 
+.navbar-default .navbar-nav > .active > a:hover { 
+ background-color: #000; 
+} */
